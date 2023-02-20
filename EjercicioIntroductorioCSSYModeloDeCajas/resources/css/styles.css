@@ -1,0 +1,197 @@
+/* Header */
+.contenedorHeader {
+    background-color: black;
+    position: top;
+    color: white;
+    padding-left: 6%;
+    margin: 0 0.25% 8% 0.25%;
+}
+
+.contenedorTitulosHeader {
+    margin-bottom: 15%;
+}
+
+.contenedorTitulosHeader h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.8% 0 1.5% 0;
+}
+
+.contenedorTitulosHeader h2 {
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 1.5%;
+}
+
+#punto {
+    color: #55ef7e;
+}
+
+.contenedorTitulosHeader p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.contenedorTitulosHeader p span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-bottom: 0.25px solid;
+    border-color: gray;
+    padding-bottom: 0.5%;
+}
+
+.contenedorSubtitulosHeader a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.contenedorSubtituloHeader1 {
+    float: left;
+    margin-right: 40%;
+    margin-top: 0.5%;
+}
+
+.contenedorSubtituloHeader1 a {
+    padding-top: 2%;
+    color: white;
+}
+
+.contenedorSubtituloHeader2 a {
+    color: gray;
+    font-weight: bold;
+}
+
+.contenedorSubtituloHeader2 img {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    padding-bottom: 8px;
+}
+/* Fin Header */
+
+/* Comienzo Main */
+.contenedorNavegadorPrincipal {
+    margin-bottom: 15%;
+}
+
+.navegadorPrincipal {
+    padding-left: 3%;
+    margin-bottom: 5%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.navegadorPrincipal li{
+    float: left;
+}
+
+.navegadorPrincipal a{
+    text-decoration: none;
+    color: black;
+}
+
+.primerNavegadorLi {
+    font-size: 28px;
+    margin-right: 6%;
+}
+
+.primerNavegadorLi span {
+    font-size: 8px;
+    vertical-align: top;
+}
+
+.segundoNavegadorLi {
+    font-size: 18px;
+    margin-right: 10%;
+    padding-top: 1%;
+}
+
+.subContenedorNavegador {
+    padding-top: 1%;
+}
+
+.subContenedorNavegador li {
+    margin-right: 2%;
+    font-size: 17px;
+}
+
+.subContenedorNavegador span {
+    font-weight: normal;
+}
+
+#imagenUsuario {
+    width: 25px;
+    height: 25px;
+    padding-bottom: 5% !important;
+}
+
+.contenedorParrafo {
+    padding-left: 3%;
+    font-family: sans-serif;
+    font-size: 67px;
+    font-weight: bold;
+    line-height: 125%;
+    margin-bottom: 4%;
+}
+
+.contenedorNavegadorSecundario {
+    margin-bottom: 10%;
+    margin-left: 48%;
+}
+
+.navegadorSecundario {
+    padding-left: 3%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.navegadorSecundario li { 
+    float: left;
+    margin-right: 6.8%; 
+}
+
+.navegadorSecundario a { 
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+
+.navegadorSecundario span {
+    color: #e17055;
+}
+
+.contenedorSubtituloMain {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: thin;
+    font-size: 80px;
+    color: #F44B29;
+    padding-left: 1.5%;
+    margin-bottom: 2%;
+}
+
+.contenedorParrafoSecundario {
+    padding-left: 13%;
+    font-family: sans-serif;
+    font-size: 55px;
+    line-height: 135%;
+    margin-bottom: 6%;
+    font-weight: bold;
+    text-align: justify;
+} 
+
+.contenedorParrafoSecundario span {
+    border-bottom: 5px solid;
+    border-color: #f88062;
+}
+/* Fin Main */
+/* Inicio Footer */
+.contenedorFooter {
+    position: bottom;
+    margin: 0 0.25% 0 0.25%;
+}
+
+.contenedorFooter img {
+    width: 100%;
+}
+/* Fin Footer */
