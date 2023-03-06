@@ -1,0 +1,115 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedorFlexibleTitulo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: start;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.contenedorFlexibleTitulo .titulo {
+    font-size: large;
+    margin-top: 0;
+}
+
+.contenedorFlexibleFila1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; 
+    align-items: center;
+    margin: 0 2% 2% 2%;
+}
+
+.contenedorFlexibleFila1 .item {
+    flex-grow: 1;
+    flex: 1;
+    margin: 0 1%;
+    border-radius: 8px;
+    
+    box-shadow: 0.5px 0.5px 4px 0.5px rgb(199, 199, 199);
+    -webkit-box-shadow: 0.5px 0.5px 4px 0.5px rgb(199, 199, 199);
+    -moz-box-shadow: 0.5px 0.5px 4px 0.5px rgb(199, 199, 199);
+}
+
+.item .imagenProducto {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+.item .tituloProducto {
+    font-size: medium;
+    margin: 0% 2%;
+}
+
+.item .descripcionProducto {
+    font-size: smaller;
+    margin: 0% 2%;
+    color: rgb(75, 72, 72);
+}
+
+.contenedorPrecioBtnProducto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    border-top: 1px solid rgb(199, 199, 199);
+    margin: 2% 2% 0 2%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.contenedorPrecio {
+    flex-grow: 1;
+}
+
+.contenedorPrecioBtnProducto .precioAnteriorProducto {
+    color: rgb(153, 152, 152);
+    text-decoration: line-through;
+}
+
+.contenedorPrecioBtnProducto .precioProducto {
+    color:rgb(127, 92, 158);
+    font-weight: bolder;
+}
+
+.calificacionComprasProducto {
+    font-size: smaller;
+    color: rgb(127, 92, 158);
+    margin-right: 4%;
+}
+
+.contenedorBtn {
+    flex-grow: 1;
+    margin-left: auto;
+}
+
+.btnFacturar {
+    border-radius: 5px;
+    border: 1px solid rgb(127, 92, 158);
+    padding: 0.5% 2%;
+}
+
+.btnPrevio {
+    color: rgb(127, 92, 158);
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(127, 92, 158);
+    text-align: center;
+    text-decoration: none;
+    font-size: smaller;
+    padding: 2% 6%;
+}
+
+.btnPrevio:hover {
+    background-color: rgb(127, 92, 158);
+    color: white;
+}
