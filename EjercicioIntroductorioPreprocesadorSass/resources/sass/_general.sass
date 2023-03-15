@@ -1,0 +1,28 @@
+@import 'variables'
+@import 'mixin'
+@import 'herencia'
+
+body
+    font-family: Arial, Helvetica, sans-serif
+    margin: 0
+    padding: 0
+
+.contenedorTitulo
+    @include contenidoFlexible(center, center)
+    background-color: $colorContenedorTitulo
+    .tituloPrincipal
+        color: $colorLetrasTitulo
+        font-size: $tamanoLetrasTitulo
+        font-weight: bold
+        margin: 20px 0
+
+.contenedorArticulos
+    @include contenidoFlexible(center, stretch)
+    div
+        background-color: $colorContenedorItems
+        margin: 7px
+        @include itemFlexible(1)
+        .titulosItem
+            @extend %formatoTituloItems
+    .item3
+        @include itemFlexible(1.25)

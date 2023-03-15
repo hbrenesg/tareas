@@ -1,0 +1,10 @@
+@mixin contenidoFlexible($justify, $align)
+    display: flex
+    flex-flow: row wrap
+    justify-content: $justify
+    align-items: $align
+
+@mixin itemFlexible($grow)
+    flex: $grow
+    padding: 20px 10px
+    min-width: 100px
