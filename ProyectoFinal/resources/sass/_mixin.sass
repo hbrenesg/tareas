@@ -1,0 +1,7 @@
+@mixin spanMixin($tipoWidth, $pixeles, $display)
+    @media screen and ($tipoWidth: $pixeles)
+        display: $display
+
+@mixin spanTamanio($fontSize, $lineHeight)
+    font-size: $fontSize
+    line-height: $lineHeight

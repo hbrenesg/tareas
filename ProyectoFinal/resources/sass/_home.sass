@@ -1,0 +1,87 @@
+@import 'variables'
+@import 'mixin'
+@import 'herencia'
+
+body
+    @extend %formatoBody
+
+a
+    @extend %formatoEtiquetaA
+
+.divPrimeraLinea
+    background: rgba(93, 39, 67, 0.3)
+
+.aPrimeraLinea:hover
+    color: $colorFondoBotones
+
+.spanNegrita
+    font-weight: bolder
+
+.navHeader
+    background-color: $colorNegroAbsoluto
+
+.btnSignUp
+    @extend %formatoBotones
+
+.dropPersonalizado
+    background: $colorNegroAbsoluto
+    padding: 24px 24px 10px
+    width: 250px
+    border-radius: 10px
+    border: 1px solid rgba(255, 255, 255, 0.15)
+    color: $colorLetraBody
+
+.mainPantallaPrincipal
+    margin: 80px auto 0px
+
+.divPrimerTitulo
+    font-family: $fuenteBody2
+    max-width: 1100px
+    margin-bottom: 40px
+
+.spanEscritorio
+    @include spanMixin(max-width, 992px, none)
+    @include spanTamanio(6.5rem, 6rem)
+
+.spanMovil
+    @include spanMixin(min-width, 993px, none)
+    @include spanTamanio(2.8rem, 3rem)
+
+.divDegradado
+    transform-origin: center center
+    background-image: linear-gradient(to right top,#6c22bd,#8b25bb,#a52bb9,#bc34b7,#d040b5,#e645a5,#f55195,#ff6188,#ff796e,#ff965b,#f5b255,#e1cd60)
+    position: absolute
+    left: 50%
+    border-radius: 20px
+    transform: skewY(-15deg) translate(-50%,-50%) scale(.7) translateZ(0)
+    pointer-events: none
+    width: 900px
+    height: 500px
+    filter: blur(100px)
+    opacity: .4
+    top: 0
+    transition: filter .25s ease-in-out,opacity .25s ease-in-out
+
+.divRowPrimerFilaBotones
+    button
+        border: 0px none
+        outline: 0px
+        margin: 0px
+        max-width: 180px
+        padding: 8px 16px
+        cursor: pointer
+        border-radius: 10px
+        background: rgba(255, 255, 255, 0.08)
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px inset
+        transition: background-color 250ms ease-in-out 0s
+        margin: 0 5px
+    img
+        display: flex
+        margin: 0 auto 20px auto
+        width: 30px
+        height: 30px
+    span
+        color: $colorLetraBody
+
+.imgPrimerBanner
+    max-width: 1200px
