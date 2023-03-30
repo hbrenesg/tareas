@@ -11,9 +11,34 @@ a {
   color: rgb(250, 250, 250);
 }
 
+.divDegradado2, .divDegradado1 {
+  background-color: linear-gradient(to right top, #6c22bd, #8b25bb, #a52bb9, #bc34b7, #d040b5, #e645a5, #f55195, #ff6188, #ff796e, #ff965b, #f5b255, #e1cd60);
+  border-radius: 20px;
+  transform-origin: center center;
+  background-image: linear-gradient(to right top, #6c22bd, #8b25bb, #a52bb9, #bc34b7, #d040b5, #e645a5, #f55195, #ff6188, #ff796e, #ff965b, #f5b255, #e1cd60);
+  position: absolute;
+  left: 50%;
+  border-radius: 20px;
+  pointer-events: none;
+  width: 900px;
+  height: 500px;
+  filter: blur(100px);
+  opacity: 0.4;
+  top: 0;
+  transition: filter 0.25s ease-in-out, opacity 0.25s ease-in-out;
+}
+
 .btnSignUp {
   background-color: #ff2d60;
   color: rgb(250, 250, 250);
+}
+
+.pSegundoTitulo {
+  font-size: 6.5rem;
+  line-height: 6rem;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+  font-family: "Work Sans", sans-serif;
 }
 
 .divPrimeraLinea {
@@ -71,20 +96,8 @@ a {
   }
 }
 
-.divDegradado {
-  transform-origin: center center;
-  background-image: linear-gradient(to right top, #6c22bd, #8b25bb, #a52bb9, #bc34b7, #d040b5, #e645a5, #f55195, #ff6188, #ff796e, #ff965b, #f5b255, #e1cd60);
-  position: absolute;
-  left: 50%;
-  border-radius: 20px;
-  transform: skewY(-15deg) translate(-50%, -50%) scale(0.7) translateZ(0);
-  pointer-events: none;
-  width: 900px;
-  height: 500px;
-  filter: blur(100px);
-  opacity: 0.4;
-  top: 0;
-  transition: filter 0.25s ease-in-out, opacity 0.25s ease-in-out;
+.divDegradado1 {
+  transform: skewY(-15deg) translate(-50%, -30%) scale(0.7) translateZ(0);
 }
 
 .divPrimerBanner {
@@ -123,6 +136,7 @@ a {
   background-color: rgba(23, 25, 28, 0.6);
   border-radius: 24px;
   max-width: 1200px;
+  margin-bottom: 160px;
 }
 
 .divOpcionesDescargas {
@@ -136,4 +150,39 @@ a {
   height: 64px;
   background-image: radial-gradient(circle at bottom, rgba(91, 149, 191, 0.4) 0, hsla(0, 0%, 9%, 0.8) 30%, rgba(30, 30, 30, 0.8) 100%);
   border-radius: 20px;
+}
+
+.spanOpcionDescarga {
+  font-size: 14px;
+  line-height: 16px;
+  color: #9098a2;
+}
+
+.divSegundoTitulo {
+  margin-bottom: 90px;
+}
+
+.pSegundoTitulo {
+  max-width: 1200px;
+}
+
+.pParrafoSegundoTitulo {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  letter-spacing: -0.05rem;
+  color: #9098a2;
+  max-width: 800px;
+}
+
+.divDegradado2 {
+  transform: skewY(-15deg) translate(-50%, 338%) scale(0.7) translateZ(0);
+}
+
+.pAlContentWriter {
+  font-size: 1.1rem;
+  line-height: 1.42;
+  font-weight: 400;
+  letter-spacing: -0.008rem;
+  color: #9098a2;
 }/*# sourceMappingURL=base.css.map */

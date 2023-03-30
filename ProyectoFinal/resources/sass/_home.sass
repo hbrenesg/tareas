@@ -47,20 +47,9 @@ a
     @include spanMixin(min-width, 993px, none)
     @include spanTamanio(2.8rem, 3rem)
 
-.divDegradado
-    transform-origin: center center
-    background-image: linear-gradient(to right top,#6c22bd,#8b25bb,#a52bb9,#bc34b7,#d040b5,#e645a5,#f55195,#ff6188,#ff796e,#ff965b,#f5b255,#e1cd60)
-    position: absolute
-    left: 50%
-    border-radius: 20px
-    transform: skewY(-15deg) translate(-50%,-50%) scale(.7) translateZ(0)
-    pointer-events: none
-    width: 900px
-    height: 500px
-    filter: blur(100px)
-    opacity: .4
-    top: 0
-    transition: filter .25s ease-in-out,opacity .25s ease-in-out
+.divDegradado1
+    @extend %formatoDegradadoHome
+    transform: skewY(-15deg) translate(-50%,-30%) scale(.7) translateZ(0)
 
 .divPrimerBanner
     margin-bottom: 240px
@@ -94,6 +83,7 @@ a
     background-color: $colorFondoSeccionDescargas
     border-radius: 24px
     max-width: 1200px
+    margin-bottom: 160px
 
 .divOpcionesDescargas
     margin: 0 125px
@@ -105,3 +95,26 @@ a
     height: 64px
     background-image: radial-gradient(circle at bottom,rgba(91,149,191,.4) 0,hsla(0,0%,9%,.8) 30%,rgba(30,30,30,.8) 100%)
     border-radius: 20px
+
+.spanOpcionDescarga
+    font-size: 14px
+    line-height: 16px
+    color: $colorSpanOpcionDescarga
+
+.divSegundoTitulo
+    margin-bottom: 90px
+
+.pSegundoTitulo
+    @extend %formatoTitulos
+    max-width: 1200px
+
+.pParrafoSegundoTitulo
+    @include propiedadesParrafos(1.5rem, 1.8rem, 400, -.05rem, $colorSpanOpcionDescarga)
+    max-width: 800px
+
+.divDegradado2
+    @extend %formatoDegradadoHome
+    transform: skewY(-15deg) translate(-50%,338%) scale(.7) translateZ(0)
+
+.pAlContentWriter
+    @include propiedadesParrafos(1.1rem, 1.42, 400, -.008rem, $colorSpanOpcionDescarga)
