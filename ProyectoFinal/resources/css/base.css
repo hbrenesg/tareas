@@ -11,7 +11,7 @@ a {
   color: rgb(250, 250, 250);
 }
 
-.divDegradado2, .divDegradado1 {
+.divDegradado4, .divDegradado3, .divDegradado2, .divDegradado1 {
   background-color: linear-gradient(to right top, #6c22bd, #8b25bb, #a52bb9, #bc34b7, #d040b5, #e645a5, #f55195, #ff6188, #ff796e, #ff965b, #f5b255, #e1cd60);
   border-radius: 20px;
   transform-origin: center center;
@@ -155,7 +155,7 @@ a {
 .spanOpcionDescarga {
   font-size: 14px;
   line-height: 16px;
-  color: #9098a2;
+  color: rgb(144, 152, 162);
 }
 
 .divSegundoTitulo {
@@ -171,7 +171,7 @@ a {
   line-height: 1.8rem;
   font-weight: 400;
   letter-spacing: -0.05rem;
-  color: #9098a2;
+  color: rgb(144, 152, 162);
   max-width: 800px;
 }
 
@@ -179,12 +179,16 @@ a {
   transform: skewY(-15deg) translate(-50%, 338%) scale(0.7) translateZ(0);
 }
 
+.divSeccionAlContentWriter {
+  margin-bottom: 180px;
+}
+
 .pDetalleAlContentWriter {
   font-size: 1.1rem;
   line-height: 1.42;
   font-weight: 400;
   letter-spacing: -0.008rem;
-  color: #9098a2;
+  color: rgb(144, 152, 162);
 }
 
 .pAlContentWriter {
@@ -196,7 +200,26 @@ a {
 }
 
 .divTextoAlContentWriter {
-  width: 30%;
-  max-width: 500px;
   padding-left: 80px;
+}
+
+.spanAlContentWriter {
+  font-size: 14px;
+  line-height: 0;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: rgb(144, 152, 162);
+}
+
+.divDegradado3 {
+  transform: skewY(-20deg) translate(-10%, 470%) scale(0.7) translateZ(0);
+}
+
+.imgTaskAndProjects {
+  width: 100%;
+  height: auto;
+}
+
+.divDegradado4 {
+  transform: skewY(-20deg) translate(-85%, 520%) scale(0.7) translateZ(0);
 }/*# sourceMappingURL=base.css.map */
